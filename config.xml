@@ -6,11 +6,11 @@
         version     = "1.0.0" >
 
     <!-- versionCode is optional and Android only -->
-
+<access origin="*" />
     <name>ODC_Mobile</name>
 
 <!-- This will open inside an app--> 
-<access origin="http://onedaycart.com/" subdomains="true" browserOnly="false" /> 
+
 
     <description>
        ODC Mobile app 
