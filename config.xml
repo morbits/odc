@@ -7,7 +7,9 @@
 
     <!-- versionCode is optional and Android only -->
 <access origin="*" />
-    <name>ODC_Mobile</name>
+<platform name="android" />
+
+<name>ODC_Mobile</name>
 
 <!-- This will open inside an app--> 
 
