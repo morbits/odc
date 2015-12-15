@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
-		id        = "1"
-		versionCode="1"
+		id        = "com.onedaycart.mobile"
+		versionCode=""
 		version   = "">
 		<name>ODC Mobile </name>
 		<description>
@@ -42,5 +42,4 @@ Abhilash
 		<preference name="disable-cursor" value="false" />
 		<gap:platform name="android" />
 		<gap:plugin name="org.apache.cordova.dialogs"  />
-		<access origin="http://onedaycart.com/" subdomains="true"  />
-	</widget>
+		<access origin="http://onedaycart.com/" subdomains="tr
