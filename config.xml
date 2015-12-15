@@ -10,7 +10,7 @@
     <name>ODC_Mobile</name>
 
 <!-- This will open inside an app--> 
-<access origin="*" subdomains="true" browserOnly="false" /> 
+<access origin="http://onedaycart.com/" subdomains="true" browserOnly="false" /> 
 
     <description>
        ODC Mobile app 
