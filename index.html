@@ -18,12 +18,19 @@
 		<h1>ONEDAYCART</h1>
 	</div><!-- /header -->
 
-	<div data-role="content">	
-		<form>
-   <label for="slider-0">Input slider:</label>
-   <input type="range" name="slider" id="slider-0" value="25" min="0" max="100"  />
-</form>		
-	</div><!-- /content -->
+<div role="main" class="ui-content">
+	    <div id="main">Result</div>
+  </div>
+ 
+<script>
+
+  
+  $('#main').load('http://onedaycart.com/phpinfo.php',function(){
+$('#main').trigger('create');
+});
+
+  </script>
+  
 <div data-role="footer">
 		<h4>app@onedaycart.com</h4>
 	</div><!-- /header -->
